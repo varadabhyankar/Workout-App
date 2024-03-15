@@ -1,0 +1,893 @@
+ <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:background="@color/gray_background">
+
+        <LinearLayout
+            android:id="@+id/cardContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_centerInParent="true">
+
+            <!-- Day 1 Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise1"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps1"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise2"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps2"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise3"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps3"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise4"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps4"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Day 2 Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 2"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise5"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps5"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise6"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps6"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise7"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps7"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise8"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps8"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Day 3 Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 3"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise9"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps9"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise10"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps10"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise11"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps11"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise12"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps12"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Day 4 Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 4"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise13"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps13"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise14"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps14"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise15"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps15"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise16"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps16"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Day 5 Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 5"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise17"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps17"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_17"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise18"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps18"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_18"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise19"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps19"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_19"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise20"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps20"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_20"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Day 6 Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Day 6"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise21"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps21"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise22"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps22"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_22"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise23"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps23"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_23"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/exercise24"
+                            android:layout_width="50dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.4"
+                            android:text="Exercise Name"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:id="@+id/reps24"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="0.25"
+                            android:text="Reps"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:id="@+id/percent_done_24"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:inputType="numberDecimal"
+                            android:hint="% ✓"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/buttonDoneForTheWeek"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:text="Done For\nThe Week"
+                android:minHeight="30dp" />
+
+        </LinearLayout>
+    </ScrollView>

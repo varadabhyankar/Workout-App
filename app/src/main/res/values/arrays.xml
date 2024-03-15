@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="goals">
+    <item>Weight Loss</item>
+    <item>Muscle Gain</item>
+    <item>Maintain Fitness</item>
+</string-array>
+
+<string-array name="experience_levels">
+    <item>Beginner</item>
+    <item>Medium</item>
+</string-array>
+
+<string-array name="gender">
+    <item>Male</item>
+    <item>Female</item>
+</string-array>
+
+<string-array name="bicep_exercises">
+    <item>Bicep Curl</item>
+    <item>Leg Bicep Curl</item>
+    <item>Hammer Curl</item>
+</string-array>
+
+<integer-array name="bicep_costs">
+    <item>8</item>
+    <item>8</item>
+    <item>8</item>
+</integer-array>
+
+<string-array name="triceps_exercises">
+    <item>Close Push-ups</item>
+    <item>Triceps Dip on Bench</item>
+    <item>Pike Push-ups</item>
+    <item>Overhead Extension</item>
+</string-array>
+
+<integer-array name="triceps_costs">
+    <item>12</item>
+    <item>12</item>
+    <item>8</item>
+    <item>8</item>
+</integer-array>
+
+<string-array name="chest_exercises">
+    <item>Wide Push-ups</item>
+    <item>Incline Push-ups</item>
+    <item>Decline Push-ups</item>
+    <item>Push-ups</item>
+</string-array>
+    
+<integer-array name="chest_costs">
+    <item>8</item>
+    <item>8</item>
+    <item>12</item>
+    <item>8</item>
+</integer-array>
+    
+<string-array name="back_exercises">
+    <item>Pull-ups</item>
+    <item>Back Extension</item>
+    <item>Superman Row</item>
+    <item>Hip Extension</item>
+</string-array>
+
+<integer-array name="back_costs">
+    <item>16</item>
+    <item>8</item>
+    <item>8</item>
+    <item>12</item>
+</integer-array>
+
+<string-array name="shoulder_exercises">
+    <item>Alternating Punch</item>
+    <item>Pike Push-ups</item>
+    <item>Incline Push-ups</item>
+</string-array>
+    
+<integer-array name="shoulder_costs">
+    <item>4</item>
+    <item>8</item>
+    <item>8</item>
+</integer-array>
+    
+<string-array name="leg_exercises">
+    <item>Squats</item>
+    <item>Lunges</item>
+    <item>Bench Jumps</item>
+    <item>Calf Raise</item>
+    <item>Hip Extension</item>
+    <item>Hip Thrust</item>
+</string-array>
+
+<integer-array name="leg_costs">
+    <item>8</item>
+    <item>8</item>
+    <item>8</item>
+    <item>4</item>
+    <item>12</item>
+    <item>12</item>
+</integer-array>
+
+<string-array name="abs_exercises">
+    <item>Crunches</item>
+    <item>Sit-up and Twist</item>
+    <item>Hanging Knee Raises</item>
+    <item>Mountain Climber</item>
+    <item>Ab wheel</item>
+</string-array>
+
+<integer-array name="abs_costs">
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+    <item>12</item>
+</integer-array>
+
+<string-array name="cardio_exercises">
+    <item>Jogging</item>
+    <item>Cycling</item>
+</string-array>
+
+<integer-array name="cardio_costs">
+    <item>15</item>
+    <item>15</item>
+</integer-array>
+
+<string-array name="cardio_v2_exercises">
+    <item>Skipping</item>
+    <item>High Jumps</item>
+    <item>Star Jumps</item>
+</string-array>
+
+<integer-array name="cardio_v2_costs">
+    <item>2</item>
+    <item>8</item>
+    <item>4</item>
+</integer-array>
+    
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Workout Application v1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Calorie Calculator</string>
+    <string name="title_notifications">Workout Schedule</string>
+    <string name="bmi_display">BMI: %.2f</string>
+</resources>

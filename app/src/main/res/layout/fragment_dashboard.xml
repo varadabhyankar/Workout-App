@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_nutrition_calculator.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_background">
+
+    <!-- Search bar with buttons -->
+    <RelativeLayout
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Your search bar UI components go here -->
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_gray_background"
+            android:textColorHint="@color/dark_gray_background"
+            android:hint="Search Items (Enter quantity in gm)"/>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchEditText"
+            android:text="Search"/>
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchEditText"
+            android:layout_toEndOf="@id/searchButton"
+            android:layout_marginStart="16dp"
+            android:text="Reset"/>
+    </RelativeLayout>
+
+    <!-- RecyclerView for displaying the list of food items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchBar"
+        android:layout_above="@+id/totalContainer"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"/>
+
+    <!-- Fixed container for displaying the total quantity -->
+    <LinearLayout
+        android:id="@+id/totalContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical"
+        android:background="@color/red_background"
+        android:padding="16dp">
+
+        <!-- TextViews for displaying total quantity, protein, carbs, etc. -->
+        <TextView
+            android:id="@+id/totalQuantityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Details: Carbs: 0(g), Protein: 0(g), Fiber: 0(g), Sugar: 0(g), Fat: 0(g), Cholestrol: 0(mg), Calories: 0"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+        <!-- Add more TextViews for protein, carbs, sugar, etc. if needed -->
+
+    </LinearLayout>
+</RelativeLayout>
